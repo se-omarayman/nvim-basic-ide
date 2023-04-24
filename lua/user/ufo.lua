@@ -1,4 +1,4 @@
-local M = { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
+local M = { "kevinhwang91/nvim-ufo", dependencies = "kevinhwang91/promise-async" }
 
 function M.config()
   local ufo = require("ufo")
