@@ -1,4 +1,8 @@
-local M = { "kevinhwang91/nvim-ufo", dependencies = "kevinhwang91/promise-async" }
+local M = {
+  "kevinhwang91/nvim-ufo",
+  event = "BufReadPre",
+  dependencies = "kevinhwang91/promise-async"
+}
 
 function M.config()
   local ufo = require("ufo")
@@ -8,4 +12,5 @@ function M.config()
     end,
   }
 end
+
 return M
