@@ -3,9 +3,14 @@ local M = {
   event = "VimEnter"
 }
 
+local function on_attach(bufnr)
+  local api = require('nvim-tree.api')
+end
+
 function M.config()
   local tree_cb = require("nvim-tree.config").nvim_tree_callback
   require("nvim-tree").setup {
+    on_attach = on_attach,
     update_focused_file = {
       enable = true,
       update_cwd = true,
