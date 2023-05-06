@@ -44,7 +44,14 @@ keymap("v", "p", '"_dP', opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
--- keymap("n", "<ESC>", ":noh<CR>", opts)
+
+-- Map l to s in dvorak
+keymap("n", "s", "l", opts)
+keymap("n", "l", "s", opts)
+keymap("v", "s", "l", opts)
+keymap("v", "l", "s", opts)
+keymap("x", "s", "l", opts)
+keymap("x", "l", "s", opts)
 
 -- Visual --
 -- Stay in indent mode
