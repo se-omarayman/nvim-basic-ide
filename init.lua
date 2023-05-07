@@ -1,4 +1,4 @@
 require "options"
 require "keymaps"
--- require "Lazy"
+require "Lazy"
 require "autocommands"
