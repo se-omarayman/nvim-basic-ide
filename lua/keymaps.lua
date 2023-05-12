@@ -46,12 +46,12 @@ keymap("v", "p", '"_dP', opts)
 keymap("i", "jk", "<ESC>", opts)
 
 -- Map l to s in dvorak
--- keymap("n", "s", "l", opts)
--- keymap("n", "l", "s", opts)
--- keymap("v", "s", "l", opts)
--- keymap("v", "l", "s", opts)
--- keymap("x", "s", "l", opts)
--- keymap("x", "l", "s", opts)
+keymap("n", "s", "l", opts)
+keymap("n", "l", "s", opts)
+keymap("v", "s", "l", opts)
+keymap("v", "l", "s", opts)
+keymap("x", "s", "l", opts)
+keymap("x", "l", "s", opts)
 
 -- map e to w for easier navigation on dvorak
 keymap("n", "e", "w", opts)
