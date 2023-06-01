@@ -32,6 +32,9 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<M-k>", ":bnext<CR>", opts)
 keymap("n", "<M-j>", ":bprevious<CR>", opts)
 
+keymap("n", "<C-l>", "$", opts)
+keymap("n", "<C-h>", "^", opts)
+
 -- Clear highlights
 keymap("n", "<ESC>", "<cmd>nohlsearch<CR>", opts)
 
