@@ -1,5 +1,8 @@
 local M = {
   "akinsho/git-conflict.nvim",
+  version = "*",
+  config = true,
+  event = "VeryLazy",
 }
 
 function M.config()

@@ -1,6 +1,6 @@
 local M = {
   "ThePrimeagen/vim-be-good",
-  event = "VimEnter",
+  event = "VeryLazy",
 }
 
 return M
