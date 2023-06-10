@@ -28,6 +28,14 @@ keymap("n", "<C-Down>", ":resize +2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
+-- remap left and right to start and end of line
+keymap("n", "<Right>", "$", opts)
+keymap("n", "<Left>", "^", opts)
+keymap("v", "<Right>", "$", opts)
+keymap("v", "<Left>", "^", opts)
+keymap("x", "<Right>", "$", opts)
+keymap("x", "<Left>", "^", opts)
+
 -- Navigate buffers
 keymap("n", "<M-k>", ":bnext<CR>", opts)
 keymap("n", "<M-j>", ":bprevious<CR>", opts)
