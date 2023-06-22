@@ -128,4 +128,4 @@ keymap('n', 'zR', "<cmd>lua require('ufo').openAllFolds()<cr>", opts)
 keymap('n', 'zM', "<cmd>lua require('ufo').closeAllFolds()<cr>", opts)
 
 -- <leader>w saves
-keymap("n", "<leader>w", ":w<CR>", opts)
+keymap("n", "<leader>,", ":w<CR>", opts)
