@@ -98,7 +98,7 @@ end
 
 
 function M.config()
-  local tree_cb = require("nvim-tree.config").nvim_tree_callback
+  -- local tree_cb = require("nvim-tree.config").nvim_tree_callback
   require("nvim-tree").setup {
     on_attach = on_attach,
     update_focused_file = {
