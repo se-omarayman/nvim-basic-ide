@@ -9,7 +9,8 @@ M.servers = {
   "bashls",
   "jsonls",
   "yamlls",
-  "tailwindcss"
+  "tailwindcss",
+  "prismals"
 }
 
 return M
