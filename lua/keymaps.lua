@@ -113,6 +113,8 @@ keymap("v", "<S-l>", "$", opts)
 keymap("v", "<S-h>", "^", opts)
 keymap("x", "<S-l>", "$", opts)
 keymap("x", "<S-h>", "^", opts)
+keymap("o", "<S-l>", "$", opts)
+keymap("o", "<S-h>", "^", opts)
 
 -- center screen after these commands
 keymap("n", "<C-d>", "<C-d>zz", opts)
