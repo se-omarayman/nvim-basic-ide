@@ -29,19 +29,16 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- remap left and right to start and end of line
-keymap("n", "<Right>", "$", opts)
-keymap("n", "<Left>", "^", opts)
-keymap("v", "<Right>", "$", opts)
-keymap("v", "<Left>", "^", opts)
-keymap("x", "<Right>", "$", opts)
-keymap("x", "<Left>", "^", opts)
+-- keymap("n", "<Right>", "$", opts)
+-- keymap("n", "<Left>", "^", opts)
+-- keymap("v", "<Right>", "$", opts)
+-- keymap("v", "<Left>", "^", opts)
+-- keymap("x", "<Right>", "$", opts)
+-- keymap("x", "<Left>", "^", opts)
 
 -- Navigate buffers
 keymap("n", "<M-k>", ":bnext<CR>", opts)
 keymap("n", "<M-j>", ":bprevious<CR>", opts)
-
-keymap("n", "<C-l>", "$", opts)
-keymap("n", "<C-h>", "^", opts)
 
 -- Clear highlights
 keymap("n", "<ESC>", "<cmd>nohlsearch<CR>", opts)
@@ -127,5 +124,5 @@ keymap("n", "<leader>sr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]
 keymap('n', 'zR', "<cmd>lua require('ufo').openAllFolds()<cr>", opts)
 keymap('n', 'zM', "<cmd>lua require('ufo').closeAllFolds()<cr>", opts)
 
--- <leader>w saves
+-- <leader>, saves
 keymap("n", "<leader>,", ":w<CR>", opts)
