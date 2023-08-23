@@ -127,9 +127,13 @@ keymap('n', 'zR', "<cmd>lua require('ufo').openAllFolds()<cr>", opts)
 keymap('n', 'zM', "<cmd>lua require('ufo').closeAllFolds()<cr>", opts)
 
 keymap("n", "<leader>ha", "<cmd>lua require('harpoon.mark').add_file()<cr>", opts)
-keymap("n", "<leader>hh", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", opts)
+keymap("n", "<leader>he", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", opts)
 keymap("n", "<leader>hj", "<cmd>lua require('harpoon.ui').nav_next()<cr>", opts)
 keymap("n", "<leader>hk", "<cmd>lua require('harpoon.ui').nav_prev()<cr>", opts)
 
+keymap("n", "<leader>hh", "<cmd>lua require('harpoon.ui').nav_file(1)<cr>", opts)
+keymap("n", "<leader>ht", "<cmd>lua require('harpoon.ui').nav_file(2)<cr>", opts)
+keymap("n", "<leader>hn", "<cmd>lua require('harpoon.ui').nav_file(3)<cr>", opts)
+keymap("n", "<leader>hs", "<cmd>lua require('harpoon.ui').nav_file(4)<cr>", opts)
 -- <leader>, saves
 keymap("n", "<leader>,", ":w<CR>", opts)
