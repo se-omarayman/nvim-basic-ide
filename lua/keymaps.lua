@@ -17,10 +17,8 @@ vim.g.mapleader = " "
 
 -- Normal --
 -- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<C-j>", "<C-w>h", opts)
+keymap("n", "<C-k>", "<C-w>l", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
@@ -37,8 +35,8 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- keymap("x", "<Left>", "^", opts)
 
 -- Navigate buffers
-keymap("n", "<M-k>", ":bnext<CR>", opts)
-keymap("n", "<M-j>", ":bprevious<CR>", opts)
+keymap("n", "<C-l>", ":bnext<CR>", opts)
+keymap("n", "<C-h>", ":bprevious<CR>", opts)
 
 -- Clear highlights
 keymap("n", "<ESC>", "<cmd>nohlsearch<CR>", opts)
