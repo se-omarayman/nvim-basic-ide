@@ -17,8 +17,8 @@ vim.g.mapleader = " "
 
 -- Normal --
 -- Better window navigation
-keymap("n", "<C-j>", "<C-w>h", opts)
-keymap("n", "<C-k>", "<C-w>l", opts)
+-- keymap("n", "<C-j>", "<C-w>h", opts)
+-- keymap("n", "<C-k>", "<C-w>l", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
