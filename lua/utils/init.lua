@@ -10,7 +10,8 @@ M.servers = {
   "jsonls",
   "yamlls",
   "tailwindcss",
-  "prismals"
+  "prismals",
+  "rust_analyzer"
 }
 
 return M
