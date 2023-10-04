@@ -11,7 +11,8 @@ M.servers = {
   "yamlls",
   "tailwindcss",
   "prismals",
-  "rust_analyzer"
+  "rust_analyzer",
+  "csharp_ls"
 }
 
 return M
